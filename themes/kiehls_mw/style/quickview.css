@@ -1,0 +1,90 @@
+/* Quickview popup */
+.ui-widget.quickview{}
+.quickview .ui-dialog-title{font-family:"Times New Roman",Times,serif;font-size:30px;font-weight:normal;display:none;}
+.quickview .ui-dialog-titlebar{background-color:transparent;height:16px;z-index:99999;}
+.ui-dialog .ui-dialog-titlebar-close .ui-icon{background-image:url(../images/closeminicart.gif);}
+.ui-dialog{border:2px solid #ccc;}
+.ui-dialog #QuickViewDialog{padding:0;margin:0;overflow:auto}
+.ui-dialog .PasswordResetDialog .passwordreset{border-top:1px dotted #ccc;}
+.sitesignindialog.ui-dialog .ui-dialog-titlebar-close,
+.ui-dialog .ui-dialog-titlebar-close,
+.ui-dialog .ui-dialog-titlebar-close:hover,
+.ui-dialog .ui-dialog-titlebar-close:focus{border:none;height:16px;margin:0;padding:0;right:0;top:-1px;width:16px;}
+.ui-widget-content .productdetail .continue,
+.ui-widget-content .productdetail .next{display:none;}
+.ui-icon-closethick{background-position:0 0;}
+.ui-dialog-content .pdpMainbody{border:none;width:760px;margin:0 auto;}
+.ui-dialog-content .productdetail{width:726px;margin:0;}
+.ui-dialog-content #pdpMain{width:760px;}
+.ui-widget-content .variationattributes .color ul.swatchesdisplay{float:right;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0;}
+.quickview .subProductContainer .productsetdetail .productimages{width:63px;min-height:100px;margin-left:0;float:left;}
+.quickview .subProductContainer .productsetdetail .productinfo{margin-left:5px;margin-right:2px;float:right;width:262px;}
+.quickview .subProductContainer,
+.bundle .subProductContainer{height:180px;overflow-y:auto;border-top:1px solid #ccc;position:relative;}
+.quickview .addtocart .btn_cart_set{margin-bottom:10px;margin-top:0;}
+.quickview .productdetail .addtocartbar{background:transparent none repeat scroll 0 0;border-bottom:none;border-top:none;}
+.quickview .productdetail .productinfo{margin-left:25px;margin-right:0;width:400px;}
+.quickview .productsetdetail .productinfo{margin-left:5px;width:262px;float:right;margin-right:0;margin-top:0;min-height:100px;}
+.quickview .variationattributes .variantdropdown select{margin-left:10px;}
+.quickview .productdetail .productimages{margin-left:0;width:320px;}
+#privacypolicy .contentasset h2{font-family:"Times New Roman",Times,serif;font-size:15px;}
+#privacypolicy .contentasset hr{color:#ccc;}
+/*write a Review popup */
+.ui-dialog .ui-dialog-titlebar{margin-left:15px;}
+.ui-widget.ui-dialog .writereviewcontainer{height:auto;}
+.writereviewcontent{margin-left:15px;margin-top:5px;border-top:1px dotted #ccc;}
+.writereviewcontent .reviewmessage{font-size:11px;font-family:Arial,Helvetica,sans-serif;text-align:left;color:#ce3124;padding-top:15px;}
+.writereviewcontent .logincustomers{float:left;width:275px;margin-top:20px;margin-right:25px;}
+.writereviewcontent .createaccount{float:left;width:275px;margin-top:20px;}
+.writereviewcontent .logincustomers .returningcustomers,
+.writereviewcontent .createaccount .newcustomers{background-color:#F8F8F8;border-bottom:1px solid #CDCDCD;border-top:none;margin-top:2px;padding-left:12px;padding-top:10px;height:170px;}
+.writereviewcontent .returningcustomers .formactions button{width:80px;}
+.returningcustomers .checkbox{float:left;margin-left:0;margin-right:0;width:120px;margin-top:7px;}
+.writereviewcontent .returningcustomers button{background:none repeat scroll 0 0 transparent;border:0;height:24px;width:62px;}
+.writereviewcontent .createaccount .createaccountbutton button{background:none repeat scroll 0 0 transparent;border:0 none;height:24px;width:126px;}
+.writereviewcontent .logincustomers h3,
+.writereviewcontent .createaccount h3{border-bottom:1px solid #CDCDCD;background-color:white;color:#333;font-family:"Times New Roman",Times,serif;font-size:14px;font-weight:normal;text-transform:uppercase;padding:7px 5px 1px 2px;}
+.writereviewcontent .returningcustomers input.textinput,
+.writereviewcontent .returningcustomers input.textinputpw{text-align:left;width:245px;margin-top:2px;height:18px;}
+.writereviewcontent .returningcustomers .rememberme{margin-left:0;width:258px;}
+.writereviewcontent .returningcustomers .forgotpassword{text-transform:uppercase;}
+.writereviewcontent .createaccount .createbenefits h6{font-size:11px;font-family:Arial,Helvetica,sans-serif;font-weight:bold;}
+.writereviewcontent .createaccount .createbenefits ul{margin-top:7px;margin-right:8px;list-style-type:disc;margin-left:12px;}
+.writereviewcontent .createaccount .createbenefits ul li{margin-bottom:5px;}
+.writereviewcontent .createaccount .newcustomers .createaccountspacer{margin:10px 12px 10px 0px;}
+.writereviewcontent .createaccount .newcustomers .createaccountspacer .createaccountbutton{float:right;width:126px;}
+.writereviewform{margin-top:10px;}
+.writereviewform .bvWriteReviewImage{float:left;width:145px;margin-right:10px;text-align:center;}
+.writereviewform .bvWriteReviewMain{float:left;width:440px;}
+.writereviewform .bvWriteReviewMain #BVSubmissionContainer{margin-bottom:30px;color:#666;}
+.writereviewform .bvWriteReviewMain .BVpreviewmessage{margin-bottom:10px;color:#ce3124;}
+.writereviewform .bvWriteReviewMain .BVpreviewmessage h6{font-size:12px;color:#ce3124;}
+.writereviewform .bvWriteReviewMain h1{font-size:32px;font-family:"Times New Roman",Times,serif;}
+.writereviewform .label{width:120px;}
+#reviewform input.textinput{width:305px;height:18px;}
+#reviewform textarea, textarea.textbox{width:305px;}
+.writereviewform .actions button{background:none repeat scroll 0 0 transparent;border:0;height:23px;width:77px;}
+.writereviewform .actions{border-top:1px dotted #ccc;float:right;margin:15px 5px 10px 0;padding:10px 3px 0px 0px;width:610px;}
+.writereviewform .actions .editreviewBtn{width:105px;}
+.writereviewform .actions .sendBtn{width:66px;}
+#reviewform .reviewexample{color:#999;font-style:italic;font-size:10px;}
+.submitrating{width:250px;}
+.submitrating .submitratingleft{float:left;width:150px;margin-bottom:2px;}
+.submitrating .submitratingright{float:right;width:100px;margin-bottom:2px;}
+.submitrating .submitratingheading{border-bottom:1px dotted #ccc;margin:10px 0 5px 0;padding-bottom:3px;}
+.submitrating .submitratingheading .submitratingleft{font-weight:bold;}
+#reviewform .formfield.rfrating,
+#reviewform .formfield.rfheadline{margin:0 0 12px;}
+.BVreviewpreview .BVreviewreviewer{font-style:italic;font-size:10px;margin-bottom:20px;margin-top:20px;color:#666;line-height:15px;}
+.BVreviewpreview .BVreviewreviewer .reviewername{font-weight:bold;}
+.BVreviewercomments{margin-bottom:40px;color:#666;}
+.BVreviewercomments .reviewsubject{font-style:italic;font-size:18px;margin-bottom:3px;font-family:"Times New Roman",Times,serif;}
+.BVreviewercomments .comments{font-size:11px;}
+.writereviewcontainer .BVconfirmationcontainer h6{font-size:12px;color:#ce3124;text-align:center;margin:100px auto;}
+#BVCustomerRatingsQuickview .readReview{display:inline;font-weight:bold;font-size:11px;text-transform:uppercase;text-decoration:none;}
+#BVCustomerRatingsQuickview .writeReview{display:inline;font-weight:bold;font-size:11px;text-transform:uppercase;text-decoration:none;}
+#BVCustomerRatingsQuickview{text-align:center;}
+/*safari hacks*/
+#BVCustomerRatingsQuickview .divider{color:#ccc;}
+#BVCustomerRatingsQuickview a{color:#000;text-decoration:none;}
+#BVCustomerRatingsQuickview a:hover{color:#ce3124;}

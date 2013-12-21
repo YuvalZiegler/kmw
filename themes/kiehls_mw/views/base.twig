@@ -2,46 +2,40 @@
 {% block head %}
 {% endblock %}
 </head>
-    <body class="{{body_class}}" data-source="base.twig">
-        <header class="header" >
-            {% block header %}
-            <div class="container">
+<body class="{{ body_class }}" data-source="base.twig">
+<div id="container">
 
-                <h1 class="hdr-logo" role="banner">
-                    <a class="hdr-logo-link" href="/" title="Timber" rel="home">{{bloginfo('name')}}</a>
-                </h1>
-                <nav id="access" class="main-navigation" role="navigation">
-                    <ul>
-                    {% for item in menu.items %}
-                        <li id="menu-item-{{item.ID}}" class="menu-item menu-item-type-{{item.type}} menu-item-object-{{item.object}} menu-item-{{item.ID}}">
-                            <a href="{{item.link}}">{{item.title}}</a>
-                        </li>
-                    {% endfor %}
-                    </ul>
-                </nav><!-- #access -->
+  <div id="header" style="height:115px;">
+    <div class="headerLogo" itemscope="" itemtype="https://schema.org/Brand">
+      <a href="http://www.kiehls.com" title="Skin Care, Body, Men, Hair and Gifts - Kiehl's Since 1851"><img
+                itemprop="logo" alt="Skin Care, Body, Men, Hair and Gifts - Kiehl's Since 1851"
+                src="http://demandware.edgesuite.net/aaen_prd/on/demandware.static/Sites-kiehls_us-Site/-/default/v1387592024658/themes/storefront/images/logo.png"
+                width="282" height="76"></a>
+    </div>
 
-            </div>
-            {% endblock %}
-        </header>
+  </div>
+  <hr/>
+
+  <div id="main" role="main" class="container">
+    <div id="content">
+
+      {% if title %}<h1>{{ title }}</h1>{% endif %}
+      <div class="wrapper {{ sidebar_class }}">
+        {% block content %}
+          Sorry, no content
+        {% endblock %}
+      </div>
+      {% if sidebar %}
+        <aside class="layout-sidebar">
+          {{ sidebar }}
+        </aside>
+      {% endif %}
+    </div>
+
+  </div>
 
 
-        <section id="content" role="main" class="container">
-            {% if title %}<h1>{{title}}</h1>{% endif %}
-            <div class="wrapper {{sidebar_class}}">
-                {% block content %}
-                    Sorry, no content
-                {% endblock %}
-            </div>
-            {% if sidebar %}
-                <aside class="layout-sidebar">
-                    {{sidebar}}
-                </aside>
-            {% endif %}
-        </section>
-
-        <footer id="footer" class="container">
-            {% include 'footer.twig' %}
-        </footer>
-        {{ function('wp_footer') }}
-    </body>
+  {{ function('wp_footer') }}
+</div>
+</body>
 </html>
