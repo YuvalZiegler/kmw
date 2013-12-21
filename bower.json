@@ -1,0 +1,15 @@
+{
+  "name": "kiehlsMW",
+  "version": "0.0.0",
+  "authors": [
+    "Yuval Ziegler <YuvalZiegler@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.0.2"
+  }
+}
