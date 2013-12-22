@@ -19,11 +19,8 @@
 
 	$context = Timber::get_context();
 
-	$context['posts'] = Timber::get_posts();
-	$context['env'] = "WHATCHAT";
-	$templates = array('index.twig');
-	if (is_home()){
-		array_unshift($templates, 'home.twig');
-	}
+  $args = 'post_type=issue';
+	$context['posts'] = Timber::get_posts($args);
 
+$templates = array('index.twig');
   Timber::render('index.twig', $context);

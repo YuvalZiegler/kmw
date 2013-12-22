@@ -7,11 +7,16 @@
     <meta charset="{{ bloginfo('charset') }}" />
     <title>{{wp_title}}</title>
     <meta name="description" content="{{ bloginfo('description') }}">
-    <link rel="stylesheet" href="{{ theme_dir }}/style/kiehls-default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ theme_dir }}/style/storefront.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ theme_dir }}/style/quickview.css" type="text/css" media="screen" />
+
+    {# load only if on dev env#}
+      <link rel="stylesheet" href="{{ theme_dir }}/style/kiehls-default.css" type="text/css" media="screen" />
+      <link rel="stylesheet" href="{{ theme_dir }}/style/storefront.css" type="text/css" media="screen" />
+      <link rel="stylesheet" href="{{ theme_dir }}/style/quickview.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="{{ theme_dir }}/style/bootstrap.css" type="text/css" media="screen" />
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="pingback" href="{{ bloginfo('pingback_url') }}" />
-	{{function('wp_head')}}
+	  {{function('wp_head')}}
