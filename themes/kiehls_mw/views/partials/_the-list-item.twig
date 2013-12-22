@@ -1,0 +1,20 @@
+{% set info = 'product_info_'~i %}
+{% set url = 'product_link_'~i %}
+{% set image = 'image_slot_'~i %}
+
+
+<div class="s-3 item-slot">
+  <div class="yz-row vs-1">
+    <h1 class="number">
+      <span class="leading-zero">0</span>
+      <span class="number">{{ i }}</span>
+    </h1>
+  </div>
+  <div class="yz-row vs-1">
+    <img class="s-11" src="{{ TimberImage(attribute(post, image)).src }}"/>
+  </div>
+  <div class="yz-row vs-1">
+    <span class="info s-11">{{ attribute(post, info) }}</span>
+    <span class="url s-11"> {{ attribute(post, url) }}</span>
+  </div>
+</div>

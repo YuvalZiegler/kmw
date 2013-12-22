@@ -1096,11 +1096,6 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 54, ../development/assets/scss/style.scss */
-#main {
-  min-height: 600px;
-}
-
 /* line 57, ../development/assets/scss/style.scss */
 .container {
   background-color: #FFF;
@@ -1575,4 +1570,21 @@ h1 {
 /* line 70, ../development/assets/scss/style.scss */
 .vs-2 {
   margin-top: 2em;
+}
+
+/* line 74, ../development/assets/scss/style.scss */
+.yz-row {
+  clear: both;
+  width: 100%;
+}
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
+.yz-row:before, .yz-row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
+.yz-row:after {
+  clear: both;
 }

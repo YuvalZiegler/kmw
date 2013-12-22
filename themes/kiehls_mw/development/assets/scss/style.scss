@@ -52,7 +52,7 @@
 ////////////////////////////
 // Custom Styles
 #main{
-  min-height: 600px;
+//  min-height: 600px;
 }
 .container{
   background-color: #FFF;
@@ -69,4 +69,10 @@ h1{
 }
 .vs-2{
   margin-top:2em;
+}
+
+.yz-row{
+  @include clearfix;
+  clear:both;
+  width:100%;
 }

@@ -27,7 +27,11 @@ function add_to_twig($twig)
 
 function load_scripts()
 {
-  wp_enqueue_script('jquery');
+  // register scripts
+  wp_register_script( 'site', get_template_directory_uri()."/js/site.js" , array('jquery'), '1' , true );
+  // loadscripts
+  wp_enqueue_script('site');
+
 }
 
 function remove_admin_bar_links()
