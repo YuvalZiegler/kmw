@@ -3,7 +3,7 @@
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "/themes/kiehls_mw/style"
-sass_dir = "/themes/kiehls_mw/components/bootstrap-sass/lib"
+sass_dir = "/themes/kiehls_mw/development/assets/scss"
 images_dir = "/themes/kiehls_mw/images"
 javascripts_dir = "/themes/kiehls_mw/js"
 

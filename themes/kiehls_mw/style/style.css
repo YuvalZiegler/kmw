@@ -1,4 +1,4 @@
-/* line 10, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 10, ../development/assets/scss/partials/_scaffolding.scss */
 *,
 *:before,
 *:after {
@@ -7,13 +7,13 @@
   box-sizing: border-box;
 }
 
-/* line 17, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 17, ../development/assets/scss/partials/_scaffolding.scss */
 html {
   font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 22, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 22, ../development/assets/scss/partials/_scaffolding.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -21,7 +21,7 @@ body {
   color: #333333;
 }
 
-/* line 34, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 34, ../development/assets/scss/partials/_scaffolding.scss */
 input,
 button,
 select,
@@ -31,24 +31,24 @@ textarea {
   line-height: inherit;
 }
 
-/* line 61, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 61, ../development/assets/scss/partials/_scaffolding.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 66, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 66, ../development/assets/scss/partials/_scaffolding.scss */
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 71, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 71, ../development/assets/scss/partials/_scaffolding.scss */
 .img-rounded {
   border-radius: 6px;
 }
 
-/* line 78, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 78, ../development/assets/scss/partials/_scaffolding.scss */
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
@@ -62,12 +62,12 @@ img {
   height: auto;
 }
 
-/* line 91, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 91, ../development/assets/scss/partials/_scaffolding.scss */
 .img-circle {
   border-radius: 50%;
 }
 
-/* line 98, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 98, ../development/assets/scss/partials/_scaffolding.scss */
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -75,7 +75,7 @@ hr {
   border-top: 1px solid #eeeeee;
 }
 
-/* line 110, ../components/bootstrap-sass/lib/_scaffolding.scss */
+/* line 110, ../development/assets/scss/partials/_scaffolding.scss */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -87,12 +87,12 @@ hr {
   border: 0;
 }
 
-/* line 9, ../components/bootstrap-sass/lib/_type.scss */
+/* line 9, ../development/assets/scss/partials/_type.scss */
 p {
   margin: 0 0 10px;
 }
 
-/* line 12, ../components/bootstrap-sass/lib/_type.scss */
+/* line 12, ../development/assets/scss/partials/_type.scss */
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -100,96 +100,96 @@ p {
   line-height: 1.4;
 }
 @media (min-width: 768px) {
-  /* line 12, ../components/bootstrap-sass/lib/_type.scss */
+  /* line 12, ../development/assets/scss/partials/_type.scss */
   .lead {
     font-size: 21px;
   }
 }
 
-/* line 29, ../components/bootstrap-sass/lib/_type.scss */
+/* line 29, ../development/assets/scss/partials/_type.scss */
 small,
 .small {
   font-size: 85%;
 }
 
-/* line 32, ../components/bootstrap-sass/lib/_type.scss */
+/* line 32, ../development/assets/scss/partials/_type.scss */
 cite {
   font-style: normal;
 }
 
-/* line 35, ../components/bootstrap-sass/lib/_type.scss */
+/* line 35, ../development/assets/scss/partials/_type.scss */
 .text-muted {
   color: #999999;
 }
 
-/* line 38, ../components/bootstrap-sass/lib/_type.scss */
+/* line 38, ../development/assets/scss/partials/_type.scss */
 .text-primary {
   color: #428bca;
 }
-/* line 40, ../components/bootstrap-sass/lib/_type.scss */
+/* line 40, ../development/assets/scss/partials/_type.scss */
 .text-primary:hover {
   color: #3071a9;
 }
 
-/* line 44, ../components/bootstrap-sass/lib/_type.scss */
+/* line 44, ../development/assets/scss/partials/_type.scss */
 .text-warning {
   color: #c09853;
 }
-/* line 46, ../components/bootstrap-sass/lib/_type.scss */
+/* line 46, ../development/assets/scss/partials/_type.scss */
 .text-warning:hover {
   color: #a47e3c;
 }
 
-/* line 50, ../components/bootstrap-sass/lib/_type.scss */
+/* line 50, ../development/assets/scss/partials/_type.scss */
 .text-danger {
   color: #b94a48;
 }
-/* line 52, ../components/bootstrap-sass/lib/_type.scss */
+/* line 52, ../development/assets/scss/partials/_type.scss */
 .text-danger:hover {
   color: #953b39;
 }
 
-/* line 56, ../components/bootstrap-sass/lib/_type.scss */
+/* line 56, ../development/assets/scss/partials/_type.scss */
 .text-success {
   color: #468847;
 }
-/* line 58, ../components/bootstrap-sass/lib/_type.scss */
+/* line 58, ../development/assets/scss/partials/_type.scss */
 .text-success:hover {
   color: #356635;
 }
 
-/* line 62, ../components/bootstrap-sass/lib/_type.scss */
+/* line 62, ../development/assets/scss/partials/_type.scss */
 .text-info {
   color: #3a87ad;
 }
-/* line 64, ../components/bootstrap-sass/lib/_type.scss */
+/* line 64, ../development/assets/scss/partials/_type.scss */
 .text-info:hover {
   color: #2d6987;
 }
 
-/* line 70, ../components/bootstrap-sass/lib/_type.scss */
+/* line 70, ../development/assets/scss/partials/_type.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 71, ../components/bootstrap-sass/lib/_type.scss */
+/* line 71, ../development/assets/scss/partials/_type.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 72, ../components/bootstrap-sass/lib/_type.scss */
+/* line 72, ../development/assets/scss/partials/_type.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 79, ../components/bootstrap-sass/lib/_type.scss */
+/* line 79, ../development/assets/scss/partials/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
-/* line 86, ../components/bootstrap-sass/lib/_type.scss */
+/* line 86, ../development/assets/scss/partials/_type.scss */
 h1 small,
 h1 .small, h2 small,
 h2 .small, h3 small,
@@ -209,14 +209,14 @@ h6 .small,
   color: #999999;
 }
 
-/* line 95, ../components/bootstrap-sass/lib/_type.scss */
+/* line 95, ../development/assets/scss/partials/_type.scss */
 h1,
 h2,
 h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 100, ../components/bootstrap-sass/lib/_type.scss */
+/* line 100, ../development/assets/scss/partials/_type.scss */
 h1 small,
 h1 .small,
 h2 small,
@@ -226,14 +226,14 @@ h3 .small {
   font-size: 65%;
 }
 
-/* line 106, ../components/bootstrap-sass/lib/_type.scss */
+/* line 106, ../development/assets/scss/partials/_type.scss */
 h4,
 h5,
 h6 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 111, ../components/bootstrap-sass/lib/_type.scss */
+/* line 111, ../development/assets/scss/partials/_type.scss */
 h4 small,
 h4 .small,
 h5 small,
@@ -243,50 +243,50 @@ h6 .small {
   font-size: 75%;
 }
 
-/* line 116, ../components/bootstrap-sass/lib/_type.scss */
+/* line 116, ../development/assets/scss/partials/_type.scss */
 h1, .h1 {
   font-size: 36px;
 }
 
-/* line 117, ../components/bootstrap-sass/lib/_type.scss */
+/* line 117, ../development/assets/scss/partials/_type.scss */
 h2, .h2 {
   font-size: 30px;
 }
 
-/* line 118, ../components/bootstrap-sass/lib/_type.scss */
+/* line 118, ../development/assets/scss/partials/_type.scss */
 h3, .h3 {
   font-size: 24px;
 }
 
-/* line 119, ../components/bootstrap-sass/lib/_type.scss */
+/* line 119, ../development/assets/scss/partials/_type.scss */
 h4, .h4 {
   font-size: 18px;
 }
 
-/* line 120, ../components/bootstrap-sass/lib/_type.scss */
+/* line 120, ../development/assets/scss/partials/_type.scss */
 h5, .h5 {
   font-size: 14px;
 }
 
-/* line 121, ../components/bootstrap-sass/lib/_type.scss */
+/* line 121, ../development/assets/scss/partials/_type.scss */
 h6, .h6 {
   font-size: 12px;
 }
 
-/* line 127, ../components/bootstrap-sass/lib/_type.scss */
+/* line 127, ../development/assets/scss/partials/_type.scss */
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 140, ../components/bootstrap-sass/lib/_type.scss */
+/* line 140, ../development/assets/scss/partials/_type.scss */
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 144, ../components/bootstrap-sass/lib/_type.scss */
+/* line 144, ../development/assets/scss/partials/_type.scss */
 ul ul,
 ul ol,
 ol ul,
@@ -294,46 +294,46 @@ ol ol {
   margin-bottom: 0;
 }
 
-/* line 152, ../components/bootstrap-sass/lib/_type.scss */
+/* line 152, ../development/assets/scss/partials/_type.scss */
 .list-unstyled, .list-inline {
   padding-left: 0;
   list-style: none;
 }
 
-/* line 161, ../components/bootstrap-sass/lib/_type.scss */
+/* line 161, ../development/assets/scss/partials/_type.scss */
 .list-inline > li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 166, ../components/bootstrap-sass/lib/_type.scss */
+/* line 166, ../development/assets/scss/partials/_type.scss */
 .list-inline > li:first-child {
   padding-left: 0;
 }
 
-/* line 173, ../components/bootstrap-sass/lib/_type.scss */
+/* line 173, ../development/assets/scss/partials/_type.scss */
 dl {
   margin-bottom: 20px;
 }
 
-/* line 177, ../components/bootstrap-sass/lib/_type.scss */
+/* line 177, ../development/assets/scss/partials/_type.scss */
 dt,
 dd {
   line-height: 1.42857;
 }
 
-/* line 180, ../components/bootstrap-sass/lib/_type.scss */
+/* line 180, ../development/assets/scss/partials/_type.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 183, ../components/bootstrap-sass/lib/_type.scss */
+/* line 183, ../development/assets/scss/partials/_type.scss */
 dd {
   margin-left: 0;
 }
 
 @media (min-width: 768px) {
-  /* line 194, ../components/bootstrap-sass/lib/_type.scss */
+  /* line 194, ../development/assets/scss/partials/_type.scss */
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -343,99 +343,99 @@ dd {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  /* line 201, ../components/bootstrap-sass/lib/_type.scss */
+  /* line 201, ../development/assets/scss/partials/_type.scss */
   .dl-horizontal dd {
     margin-left: 180px;
   }
-  /* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 21, ../development/assets/scss/partials/_mixins.scss */
   .dl-horizontal dd:before, .dl-horizontal dd:after {
     content: " ";
     /* 1 */
     display: table;
     /* 2 */
   }
-  /* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 25, ../development/assets/scss/partials/_mixins.scss */
   .dl-horizontal dd:after {
     clear: both;
   }
 }
-/* line 214, ../components/bootstrap-sass/lib/_type.scss */
+/* line 214, ../development/assets/scss/partials/_type.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #999999;
 }
 
-/* line 218, ../components/bootstrap-sass/lib/_type.scss */
+/* line 218, ../development/assets/scss/partials/_type.scss */
 abbr.initialism {
   font-size: 90%;
   text-transform: uppercase;
 }
 
-/* line 224, ../components/bootstrap-sass/lib/_type.scss */
+/* line 224, ../development/assets/scss/partials/_type.scss */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   border-left: 5px solid #eeeeee;
 }
-/* line 228, ../components/bootstrap-sass/lib/_type.scss */
+/* line 228, ../development/assets/scss/partials/_type.scss */
 blockquote p {
   font-size: 17.5px;
   font-weight: 300;
   line-height: 1.25;
 }
-/* line 233, ../components/bootstrap-sass/lib/_type.scss */
+/* line 233, ../development/assets/scss/partials/_type.scss */
 blockquote p:last-child {
   margin-bottom: 0;
 }
-/* line 236, ../components/bootstrap-sass/lib/_type.scss */
+/* line 236, ../development/assets/scss/partials/_type.scss */
 blockquote small {
   display: block;
   line-height: 1.42857;
   color: #999999;
 }
-/* line 240, ../components/bootstrap-sass/lib/_type.scss */
+/* line 240, ../development/assets/scss/partials/_type.scss */
 blockquote small:before {
   content: '\2014 \00A0';
 }
-/* line 246, ../components/bootstrap-sass/lib/_type.scss */
+/* line 246, ../development/assets/scss/partials/_type.scss */
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
   border-right: 5px solid #eeeeee;
   border-left: 0;
 }
-/* line 253, ../components/bootstrap-sass/lib/_type.scss */
+/* line 253, ../development/assets/scss/partials/_type.scss */
 blockquote.pull-right p,
 blockquote.pull-right small,
 blockquote.pull-right .small {
   text-align: right;
 }
-/* line 258, ../components/bootstrap-sass/lib/_type.scss */
+/* line 258, ../development/assets/scss/partials/_type.scss */
 blockquote.pull-right small:before,
 blockquote.pull-right .small:before {
   content: '';
 }
-/* line 261, ../components/bootstrap-sass/lib/_type.scss */
+/* line 261, ../development/assets/scss/partials/_type.scss */
 blockquote.pull-right small:after,
 blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 
-/* line 270, ../components/bootstrap-sass/lib/_type.scss */
+/* line 270, ../development/assets/scss/partials/_type.scss */
 blockquote:before,
 blockquote:after {
   content: "";
 }
 
-/* line 275, ../components/bootstrap-sass/lib/_type.scss */
+/* line 275, ../development/assets/scss/partials/_type.scss */
 address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857;
 }
 
-/* line 10, ../components/bootstrap-sass/lib/_code.scss */
+/* line 10, ../development/assets/scss/partials/_code.scss */
 code,
 kbd,
 pre,
@@ -443,7 +443,7 @@ samp {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
 
-/* line 15, ../components/bootstrap-sass/lib/_code.scss */
+/* line 15, ../development/assets/scss/partials/_code.scss */
 code {
   padding: 2px 4px;
   font-size: 90%;
@@ -453,7 +453,7 @@ code {
   border-radius: 4px;
 }
 
-/* line 25, ../components/bootstrap-sass/lib/_code.scss */
+/* line 25, ../development/assets/scss/partials/_code.scss */
 pre {
   display: block;
   padding: 9.5px;
@@ -467,7 +467,7 @@ pre {
   border: 1px solid #cccccc;
   border-radius: 4px;
 }
-/* line 39, ../components/bootstrap-sass/lib/_code.scss */
+/* line 39, ../development/assets/scss/partials/_code.scss */
 pre code {
   padding: 0;
   font-size: inherit;
@@ -477,57 +477,57 @@ pre code {
   border-radius: 0;
 }
 
-/* line 50, ../components/bootstrap-sass/lib/_code.scss */
+/* line 50, ../development/assets/scss/partials/_code.scss */
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
 }
 
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 12, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 12, ../development/assets/scss/partials/_utilities.scss */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 15, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 15, ../development/assets/scss/partials/_utilities.scss */
 .pull-right {
   float: right !important;
 }
 
-/* line 18, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 18, ../development/assets/scss/partials/_utilities.scss */
 .pull-left {
   float: left !important;
 }
 
-/* line 27, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 27, ../development/assets/scss/partials/_utilities.scss */
 .hide {
   display: none !important;
 }
 
-/* line 30, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 30, ../development/assets/scss/partials/_utilities.scss */
 .show {
   display: block !important;
 }
 
-/* line 33, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 33, ../development/assets/scss/partials/_utilities.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 36, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 36, ../development/assets/scss/partials/_utilities.scss */
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -536,13 +536,13 @@ pre code {
   border: 0;
 }
 
-/* line 45, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 45, ../development/assets/scss/partials/_utilities.scss */
 .hidden {
   display: none !important;
   visibility: hidden !important;
 }
 
-/* line 54, ../components/bootstrap-sass/lib/_utilities.scss */
+/* line 54, ../development/assets/scss/partials/_utilities.scss */
 .affix {
   position: fixed;
 }
@@ -551,7 +551,7 @@ pre code {
   width: device-width;
 }
 
-/* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 580, ../development/assets/scss/partials/_mixins.scss */
 .visible-xs,
 tr.visible-xs,
 th.visible-xs,
@@ -560,74 +560,74 @@ td.visible-xs {
 }
 
 @media (max-width: 767px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-xs {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-xs {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
   }
 }
 @media (min-width: 768px) and (max-width: 949px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-xs.visible-sm {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-xs.visible-sm {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-xs.visible-sm,
   td.visible-xs.visible-sm {
     display: table-cell !important;
   }
 }
 @media (min-width: 950px) and (max-width: 949px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-xs.visible-md {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-xs.visible-md {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-xs.visible-md,
   td.visible-xs.visible-md {
     display: table-cell !important;
   }
 }
 @media (min-width: 950px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-xs.visible-lg {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-xs.visible-lg {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-xs.visible-lg,
   td.visible-xs.visible-lg {
     display: table-cell !important;
   }
 }
-/* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 580, ../development/assets/scss/partials/_mixins.scss */
 .visible-sm,
 tr.visible-sm,
 th.visible-sm,
@@ -636,74 +636,74 @@ td.visible-sm {
 }
 
 @media (max-width: 767px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-sm.visible-xs {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-sm.visible-xs {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-sm.visible-xs,
   td.visible-sm.visible-xs {
     display: table-cell !important;
   }
 }
 @media (min-width: 768px) and (max-width: 949px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-sm {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-sm {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
   }
 }
 @media (min-width: 950px) and (max-width: 949px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-sm.visible-md {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-sm.visible-md {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-sm.visible-md,
   td.visible-sm.visible-md {
     display: table-cell !important;
   }
 }
 @media (min-width: 950px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-sm.visible-lg {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-sm.visible-lg {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-sm.visible-lg,
   td.visible-sm.visible-lg {
     display: table-cell !important;
   }
 }
-/* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 580, ../development/assets/scss/partials/_mixins.scss */
 .visible-md,
 tr.visible-md,
 th.visible-md,
@@ -712,74 +712,74 @@ td.visible-md {
 }
 
 @media (max-width: 767px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-md.visible-xs {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-md.visible-xs {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-md.visible-xs,
   td.visible-md.visible-xs {
     display: table-cell !important;
   }
 }
 @media (min-width: 768px) and (max-width: 949px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-md.visible-sm {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-md.visible-sm {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-md.visible-sm,
   td.visible-md.visible-sm {
     display: table-cell !important;
   }
 }
 @media (min-width: 950px) and (max-width: 949px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-md {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-md {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
   }
 }
 @media (min-width: 950px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-md.visible-lg {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-md.visible-lg {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-md.visible-lg,
   td.visible-md.visible-lg {
     display: table-cell !important;
   }
 }
-/* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 580, ../development/assets/scss/partials/_mixins.scss */
 .visible-lg,
 tr.visible-lg,
 th.visible-lg,
@@ -788,91 +788,91 @@ td.visible-lg {
 }
 
 @media (max-width: 767px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-lg.visible-xs {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-lg.visible-xs {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-lg.visible-xs,
   td.visible-lg.visible-xs {
     display: table-cell !important;
   }
 }
 @media (min-width: 768px) and (max-width: 949px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-lg.visible-sm {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-lg.visible-sm {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-lg.visible-sm,
   td.visible-lg.visible-sm {
     display: table-cell !important;
   }
 }
 @media (min-width: 950px) and (max-width: 949px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-lg.visible-md {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-lg.visible-md {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-lg.visible-md,
   td.visible-lg.visible-md {
     display: table-cell !important;
   }
 }
 @media (min-width: 950px) {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-lg {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-lg {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
   }
 }
-/* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 569, ../development/assets/scss/partials/_mixins.scss */
 .hidden-xs {
   display: block !important;
 }
 
-/* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 570, ../development/assets/scss/partials/_mixins.scss */
 tr.hidden-xs {
   display: table-row !important;
 }
 
-/* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 572, ../development/assets/scss/partials/_mixins.scss */
 th.hidden-xs,
 td.hidden-xs {
   display: table-cell !important;
 }
 
 @media (max-width: 767px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-xs,
   tr.hidden-xs,
   th.hidden-xs,
@@ -881,7 +881,7 @@ td.hidden-xs {
   }
 }
 @media (min-width: 768px) and (max-width: 949px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-xs.hidden-sm,
   tr.hidden-xs.hidden-sm,
   th.hidden-xs.hidden-sm,
@@ -890,7 +890,7 @@ td.hidden-xs {
   }
 }
 @media (min-width: 950px) and (max-width: 949px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-xs.hidden-md,
   tr.hidden-xs.hidden-md,
   th.hidden-xs.hidden-md,
@@ -899,7 +899,7 @@ td.hidden-xs {
   }
 }
 @media (min-width: 950px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-xs.hidden-lg,
   tr.hidden-xs.hidden-lg,
   th.hidden-xs.hidden-lg,
@@ -907,24 +907,24 @@ td.hidden-xs {
     display: none !important;
   }
 }
-/* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 569, ../development/assets/scss/partials/_mixins.scss */
 .hidden-sm {
   display: block !important;
 }
 
-/* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 570, ../development/assets/scss/partials/_mixins.scss */
 tr.hidden-sm {
   display: table-row !important;
 }
 
-/* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 572, ../development/assets/scss/partials/_mixins.scss */
 th.hidden-sm,
 td.hidden-sm {
   display: table-cell !important;
 }
 
 @media (max-width: 767px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-sm.hidden-xs,
   tr.hidden-sm.hidden-xs,
   th.hidden-sm.hidden-xs,
@@ -933,7 +933,7 @@ td.hidden-sm {
   }
 }
 @media (min-width: 768px) and (max-width: 949px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-sm,
   tr.hidden-sm,
   th.hidden-sm,
@@ -942,7 +942,7 @@ td.hidden-sm {
   }
 }
 @media (min-width: 950px) and (max-width: 949px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-sm.hidden-md,
   tr.hidden-sm.hidden-md,
   th.hidden-sm.hidden-md,
@@ -951,7 +951,7 @@ td.hidden-sm {
   }
 }
 @media (min-width: 950px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-sm.hidden-lg,
   tr.hidden-sm.hidden-lg,
   th.hidden-sm.hidden-lg,
@@ -959,24 +959,24 @@ td.hidden-sm {
     display: none !important;
   }
 }
-/* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 569, ../development/assets/scss/partials/_mixins.scss */
 .hidden-md {
   display: block !important;
 }
 
-/* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 570, ../development/assets/scss/partials/_mixins.scss */
 tr.hidden-md {
   display: table-row !important;
 }
 
-/* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 572, ../development/assets/scss/partials/_mixins.scss */
 th.hidden-md,
 td.hidden-md {
   display: table-cell !important;
 }
 
 @media (max-width: 767px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-md.hidden-xs,
   tr.hidden-md.hidden-xs,
   th.hidden-md.hidden-xs,
@@ -985,7 +985,7 @@ td.hidden-md {
   }
 }
 @media (min-width: 768px) and (max-width: 949px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-md.hidden-sm,
   tr.hidden-md.hidden-sm,
   th.hidden-md.hidden-sm,
@@ -994,7 +994,7 @@ td.hidden-md {
   }
 }
 @media (min-width: 950px) and (max-width: 949px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-md,
   tr.hidden-md,
   th.hidden-md,
@@ -1003,7 +1003,7 @@ td.hidden-md {
   }
 }
 @media (min-width: 950px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-md.hidden-lg,
   tr.hidden-md.hidden-lg,
   th.hidden-md.hidden-lg,
@@ -1011,24 +1011,24 @@ td.hidden-md {
     display: none !important;
   }
 }
-/* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 569, ../development/assets/scss/partials/_mixins.scss */
 .hidden-lg {
   display: block !important;
 }
 
-/* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 570, ../development/assets/scss/partials/_mixins.scss */
 tr.hidden-lg {
   display: table-row !important;
 }
 
-/* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 572, ../development/assets/scss/partials/_mixins.scss */
 th.hidden-lg,
 td.hidden-lg {
   display: table-cell !important;
 }
 
 @media (max-width: 767px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-lg.hidden-xs,
   tr.hidden-lg.hidden-xs,
   th.hidden-lg.hidden-xs,
@@ -1037,7 +1037,7 @@ td.hidden-lg {
   }
 }
 @media (min-width: 768px) and (max-width: 949px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-lg.hidden-sm,
   tr.hidden-lg.hidden-sm,
   th.hidden-lg.hidden-sm,
@@ -1046,7 +1046,7 @@ td.hidden-lg {
   }
 }
 @media (min-width: 950px) and (max-width: 949px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-lg.hidden-md,
   tr.hidden-lg.hidden-md,
   th.hidden-lg.hidden-md,
@@ -1055,7 +1055,7 @@ td.hidden-lg {
   }
 }
 @media (min-width: 950px) {
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-lg,
   tr.hidden-lg,
   th.hidden-lg,
@@ -1063,7 +1063,7 @@ td.hidden-lg {
     display: none !important;
   }
 }
-/* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 580, ../development/assets/scss/partials/_mixins.scss */
 .visible-print,
 tr.visible-print,
 th.visible-print,
@@ -1072,23 +1072,23 @@ td.visible-print {
 }
 
 @media print {
-  /* line 569, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 569, ../development/assets/scss/partials/_mixins.scss */
   .visible-print {
     display: block !important;
   }
 
-  /* line 570, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 570, ../development/assets/scss/partials/_mixins.scss */
   tr.visible-print {
     display: table-row !important;
   }
 
-  /* line 572, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 572, ../development/assets/scss/partials/_mixins.scss */
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
   }
 
-  /* line 580, ../components/bootstrap-sass/lib/_mixins.scss */
+  /* line 580, ../development/assets/scss/partials/_mixins.scss */
   .hidden-print,
   tr.hidden-print,
   th.hidden-print,
@@ -1096,29 +1096,29 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 54, ../components/bootstrap-sass/lib/bootstrap.scss */
+/* line 54, ../development/assets/scss/style.scss */
 #main {
   min-height: 600px;
 }
 
-/* line 57, ../components/bootstrap-sass/lib/bootstrap.scss */
+/* line 57, ../development/assets/scss/style.scss */
 .container {
   background-color: #FFF;
 }
 
-/* line 61, ../components/bootstrap-sass/lib/bootstrap.scss */
+/* line 61, ../development/assets/scss/style.scss */
 h1 {
   text-transform: uppercase;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-1 {
   float: left;
   width: 8.33333%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-1.center {
   max-width: 100%;
   margin-left: auto;
@@ -1127,36 +1127,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-1.center:before, .s-1.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-1.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-1 {
   margin-left: 8.33333%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-2 {
   float: left;
   width: 16.66667%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-2.center {
   max-width: 100%;
   margin-left: auto;
@@ -1165,36 +1165,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-2.center:before, .s-2.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-2.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-2 {
   margin-left: 16.66667%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-3 {
   float: left;
   width: 25%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-3.center {
   max-width: 100%;
   margin-left: auto;
@@ -1203,36 +1203,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-3.center:before, .s-3.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-3.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-3 {
   margin-left: 25%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-4 {
   float: left;
   width: 33.33333%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-4.center {
   max-width: 100%;
   margin-left: auto;
@@ -1241,36 +1241,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-4.center:before, .s-4.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-4.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-4 {
   margin-left: 33.33333%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-5 {
   float: left;
   width: 41.66667%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-5.center {
   max-width: 100%;
   margin-left: auto;
@@ -1279,36 +1279,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-5.center:before, .s-5.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-5.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-5 {
   margin-left: 41.66667%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-6 {
   float: left;
   width: 50%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-6.center {
   max-width: 100%;
   margin-left: auto;
@@ -1317,36 +1317,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-6.center:before, .s-6.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-6.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-6 {
   margin-left: 50%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-7 {
   float: left;
   width: 58.33333%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-7.center {
   max-width: 100%;
   margin-left: auto;
@@ -1355,36 +1355,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-7.center:before, .s-7.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-7.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-7 {
   margin-left: 58.33333%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-8 {
   float: left;
   width: 66.66667%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-8.center {
   max-width: 100%;
   margin-left: auto;
@@ -1393,36 +1393,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-8.center:before, .s-8.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-8.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-8 {
   margin-left: 66.66667%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-9 {
   float: left;
   width: 75%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-9.center {
   max-width: 100%;
   margin-left: auto;
@@ -1431,36 +1431,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-9.center:before, .s-9.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-9.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-9 {
   margin-left: 75%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-10 {
   float: left;
   width: 83.33333%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-10.center {
   max-width: 100%;
   margin-left: auto;
@@ -1469,36 +1469,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-10.center:before, .s-10.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-10.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-10 {
   margin-left: 83.33333%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-11 {
   float: left;
   width: 91.66667%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-11.center {
   max-width: 100%;
   margin-left: auto;
@@ -1507,36 +1507,36 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-11.center:before, .s-11.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-11.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-11 {
   margin-left: 91.66667%;
 }
 
-/* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-12 {
   float: left;
   width: 100%;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 876, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 876, ../development/assets/scss/partials/_mixins.scss */
 .s-12.center {
   max-width: 100%;
   margin-left: auto;
@@ -1545,34 +1545,34 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 21, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 21, ../development/assets/scss/partials/_mixins.scss */
 .s-12.center:before, .s-12.center:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 25, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 25, ../development/assets/scss/partials/_mixins.scss */
 .s-12.center:after {
   clear: both;
 }
 
-/* line 888, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 888, ../development/assets/scss/partials/_mixins.scss */
 .p-s-none {
   margin-left: 0 !important;
 }
 
-/* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
+/* line 891, ../development/assets/scss/partials/_mixins.scss */
 .p-s-12 {
   margin-left: 100%;
 }
 
-/* line 67, ../components/bootstrap-sass/lib/bootstrap.scss */
+/* line 67, ../development/assets/scss/style.scss */
 .vs-1 {
   margin-top: 1em;
 }
 
-/* line 70, ../components/bootstrap-sass/lib/bootstrap.scss */
+/* line 70, ../development/assets/scss/style.scss */
 .vs-2 {
   margin-top: 2em;
 }

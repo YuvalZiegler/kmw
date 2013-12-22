@@ -12,13 +12,12 @@
             <h1>Letter from the editor</h1>
 
             <div class="article-body s-9 center vs-1">
-              {{ post.letter_from_the_editor|wpautop }}
-
+              {{ post.letter_from_the_editor | wpautop }}
+              <img class="pull-right" src="{{ TimberImage(post.editor_signature).src }}"/>
             </div>
           </div>
         </div>
       </section>
-
 
     </article>
   </div> <!-- /content-wrapper -->

@@ -1,15 +1,22 @@
 {
-  "name": "kiehlsMW",
+  "name": "Kiehls Men's Wing",
   "version": "0.0.0",
+  "homepage": "https://github.com/YuvalZiegler/kmw",
   "authors": [
     "Yuval Ziegler <YuvalZiegler@gmail.com>"
   ],
+  "license": "",
   "private": true,
   "ignore": [
     "**/.*",
+    "node_modules",
     "bower_components",
+    "themes/kiehls_mw/development/components",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "~3.0.2"
+    "jquery.stellar": "~0.6.2",
+    "jquery": "~2.0.3"
   }
 }
