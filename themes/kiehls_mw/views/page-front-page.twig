@@ -1,0 +1,27 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+  <div class="content-wrapper">
+    <article class="post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+      <section class="article-content">
+        <img src="{{ TimberImage(post.header_image).src('large') }}"/>
+
+        <div class="container s-11 center">
+          <div class="s-10 center vs-2">
+            <h1>Letter from the editor</h1>
+
+            <div class="article-body s-9 center vs-1">
+              {{ post.letter_from_the_editor|wpautop }}
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </article>
+  </div> <!-- /content-wrapper -->
+
+{% endblock %}
+

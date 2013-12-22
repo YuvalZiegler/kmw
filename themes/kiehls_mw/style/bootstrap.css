@@ -1101,6 +1101,16 @@ td.visible-print {
   min-height: 600px;
 }
 
+/* line 57, ../components/bootstrap-sass/lib/bootstrap.scss */
+.container {
+  background-color: #FFF;
+}
+
+/* line 61, ../components/bootstrap-sass/lib/bootstrap.scss */
+h1 {
+  text-transform: uppercase;
+}
+
 /* line 869, ../components/bootstrap-sass/lib/_mixins.scss */
 .s-1 {
   float: left;
@@ -1555,4 +1565,14 @@ td.visible-print {
 /* line 891, ../components/bootstrap-sass/lib/_mixins.scss */
 .p-s-12 {
   margin-left: 100%;
+}
+
+/* line 67, ../components/bootstrap-sass/lib/bootstrap.scss */
+.vs-1 {
+  margin-top: 1em;
+}
+
+/* line 70, ../components/bootstrap-sass/lib/bootstrap.scss */
+.vs-2 {
+  margin-top: 2em;
 }

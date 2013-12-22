@@ -11,7 +11,7 @@
 
 $context = Timber::get_context();
 $post = new TimberPost();
-$context['post'] = $post;
+$context['article'] = $post;
 $context['wp_title'] .= ' - ' . $post->title();
 
 

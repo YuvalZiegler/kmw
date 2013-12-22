@@ -11,13 +11,13 @@
 
 $context = Timber::get_context();
 $issue = new TimberPost();
-$articles=$issue->articles;
+$articles=$issue->pages;
 
 $context['issue'] = $issue;
 $context['wp_title'] .= ' - ' . $issue->title();
 
 $args = array(
-  'post_type' => 'article',
+  'post_type' => 'page',
   'post__in' => $articles,
   'orderby' => 'post__in'
 );
