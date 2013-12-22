@@ -1572,7 +1572,12 @@ h1 {
   margin-top: 2em;
 }
 
-/* line 74, ../development/assets/scss/style.scss */
+/* line 73, ../development/assets/scss/style.scss */
+.vs-3 {
+  margin-top: 3em;
+}
+
+/* line 76, ../development/assets/scss/style.scss */
 .yz-row {
   clear: both;
   width: 100%;
@@ -1587,4 +1592,33 @@ h1 {
 /* line 25, ../development/assets/scss/partials/_mixins.scss */
 .yz-row:after {
   clear: both;
+}
+
+/* line 81, ../development/assets/scss/style.scss */
+.ta-center {
+  text-align: center;
+}
+
+/* line 84, ../development/assets/scss/style.scss */
+.cp {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 88, ../development/assets/scss/style.scss */
+.cm {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 92, ../development/assets/scss/style.scss */
+.alignright {
+  float: right;
+  margin: 0 0 10px 20px;
+}
+
+/* line 96, ../development/assets/scss/style.scss */
+.alignleft {
+  float: left;
+  margin: 0 20px 10px 0;
 }

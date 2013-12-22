@@ -70,9 +70,30 @@ h1{
 .vs-2{
   margin-top:2em;
 }
-
+.vs-3{
+  margin-top:3em;
+}
 .yz-row{
   @include clearfix;
   clear:both;
   width:100%;
+}
+.ta-center{
+  text-align:center;
+}
+.cp{
+  padding-left:0;
+  padding-right:0;
+}
+.cm{
+  margin-left:0;
+  margin-right:0;
+}
+.alignright {
+  float: right;
+  margin: 0 0 10px 20px;
+}
+.alignleft {
+  float: left;
+  margin: 0 20px 10px 0;
 }
