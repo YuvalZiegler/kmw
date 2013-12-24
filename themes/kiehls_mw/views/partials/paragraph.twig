@@ -1,0 +1,4 @@
+{% set content = block_prefix ~ loop.index0 ~ block_postfix ~ '_paragraph' %}
+<p>
+  {{ attribute( post, content) }}
+</p>

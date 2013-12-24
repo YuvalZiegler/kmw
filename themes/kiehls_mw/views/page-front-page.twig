@@ -7,12 +7,14 @@
       <section class="article-content">
         <img src="{{ TimberImage(post.header_image).src('large') }}"/>
 
-        <div id="editor-letter" class="container s-11 center">
-          <div class="s-10 center vs-2">
+        <div id="editor-letter" class="container s-10 center">
+          <div class="s-10 center vs-3">
             <h1>Letter from the editor</h1>
 
-            <div class="article-body s-9 center vs-1">
+            <div class="article-body s-10 center vs-2">
               {{ post.letter_from_the_editor | wpautop }}
+            </div>
+            <div class="s-11 center">
               <img class="pull-right" src="{{ TimberImage(post.editor_signature).src }}"/>
             </div>
           </div>
@@ -20,7 +22,7 @@
       </section>
 
     </article>
-  </div> <!-- /content-wrapper -->
+  </div>
 
 {% endblock %}
 

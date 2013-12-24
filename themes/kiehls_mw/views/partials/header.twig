@@ -1,0 +1,9 @@
+{% set content = block_prefix ~ loop.index0 ~ block_postfix ~ '_header' %}
+{% set type_ref = block_prefix ~ loop.index0 ~ block_postfix ~ '_header_type' %}
+{% set type = attribute( post, type_ref) | lower | replace({" ":"-"})  %}
+
+
+<h1 class="{{ type }}">
+  {{ attribute( post, content) }}
+</h1>
+

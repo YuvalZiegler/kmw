@@ -1221,14 +1221,14 @@ h1 {
 }
 
 /* line 869, ../development/assets/scss/partials/_mixins.scss */
-.s-4 {
+.s-4, .wide-on-left .block, .wide-on-right .block:first-child {
   float: left;
   width: 33.33333%;
   padding-left: 5px;
   padding-right: 5px;
 }
 /* line 876, ../development/assets/scss/partials/_mixins.scss */
-.s-4.center {
+.s-4.center, .wide-on-left .center.block, .wide-on-right .center.block:first-child {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1237,14 +1237,14 @@ h1 {
   padding-right: 0;
 }
 /* line 21, ../development/assets/scss/partials/_mixins.scss */
-.s-4.center:before, .s-4.center:after {
+.s-4.center:before, .wide-on-left .center.block:before, .wide-on-right .center.block:first-child:before, .s-4.center:after, .wide-on-left .center.block:after, .wide-on-right .center.block:first-child:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 /* line 25, ../development/assets/scss/partials/_mixins.scss */
-.s-4.center:after {
+.s-4.center:after, .wide-on-left .center.block:after, .wide-on-right .center.block:first-child:after {
   clear: both;
 }
 
@@ -1297,14 +1297,14 @@ h1 {
 }
 
 /* line 869, ../development/assets/scss/partials/_mixins.scss */
-.s-6 {
+.s-6, .equal .block {
   float: left;
   width: 50%;
   padding-left: 5px;
   padding-right: 5px;
 }
 /* line 876, ../development/assets/scss/partials/_mixins.scss */
-.s-6.center {
+.s-6.center, .equal .center.block {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1313,14 +1313,14 @@ h1 {
   padding-right: 0;
 }
 /* line 21, ../development/assets/scss/partials/_mixins.scss */
-.s-6.center:before, .s-6.center:after {
+.s-6.center:before, .equal .center.block:before, .s-6.center:after, .equal .center.block:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 /* line 25, ../development/assets/scss/partials/_mixins.scss */
-.s-6.center:after {
+.s-6.center:after, .equal .center.block:after {
   clear: both;
 }
 
@@ -1373,14 +1373,14 @@ h1 {
 }
 
 /* line 869, ../development/assets/scss/partials/_mixins.scss */
-.s-8 {
+.s-8, .wide-on-left .block:first-child, .wide-on-right .block {
   float: left;
   width: 66.66667%;
   padding-left: 5px;
   padding-right: 5px;
 }
 /* line 876, ../development/assets/scss/partials/_mixins.scss */
-.s-8.center {
+.s-8.center, .wide-on-left .center.block:first-child, .wide-on-right .center.block {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1389,14 +1389,14 @@ h1 {
   padding-right: 0;
 }
 /* line 21, ../development/assets/scss/partials/_mixins.scss */
-.s-8.center:before, .s-8.center:after {
+.s-8.center:before, .wide-on-left .center.block:first-child:before, .wide-on-right .center.block:before, .s-8.center:after, .wide-on-left .center.block:first-child:after, .wide-on-right .center.block:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 /* line 25, ../development/assets/scss/partials/_mixins.scss */
-.s-8.center:after {
+.s-8.center:after, .wide-on-left .center.block:first-child:after, .wide-on-right .center.block:after {
   clear: both;
 }
 
@@ -1621,4 +1621,9 @@ h1 {
 .alignleft {
   float: left;
   margin: 0 20px 10px 0;
+}
+
+/* line 101, ../development/assets/scss/style.scss */
+.section-header {
+  font-size: 18px;
 }

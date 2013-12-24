@@ -1,0 +1,14 @@
+/** These styles are used in the backend editor AND in your Theme. **/
+.article-header{
+  text-transform:uppercase;
+  font-size:32px;
+  line-height: 36px;
+}
+
+.article-subheader{
+  font-size:24px;
+  font-weight:lighter;
+}
+.section-header{
+  font-size:18px;
+}

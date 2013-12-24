@@ -1,0 +1,2 @@
+{% set content = attribute( post, block_prefix ~ loop.index0 ~ block_postfix ~ '_mixed') %}
+{{  content  | wpautop }}

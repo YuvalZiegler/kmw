@@ -97,3 +97,31 @@ h1{
   float: left;
   margin: 0 20px 10px 0;
 }
+
+.section-header {
+  font-size: 18px;
+}
+
+.wide-on-left{
+   .block{
+     @extend .s-4;
+     &:first-child{
+       @extend .s-8;
+     }
+   }
+}
+
+.wide-on-right{
+  .block{
+    @extend .s-8;
+    &:first-child{
+      @extend .s-4;
+    }
+  }
+}
+
+.equal{
+  .block{
+    @extend .s-6;
+  }
+}

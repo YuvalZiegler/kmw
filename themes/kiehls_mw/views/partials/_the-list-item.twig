@@ -16,7 +16,11 @@
     </div>
     <div class="yz-row vs-1">
       <span class="info s-11">{{ attribute(post, info) }}</span>
-      <span class="url s-11"> {{ attribute(post, url) }}</span>
+      <span class="url s-11">
+        <a href="{{ attribute(post, url) }}">
+          {{ attribute(post, url) | replace({'http://':'', 'https://':''}) }}
+        </a>
+      </span>
     </div>
   </div>
 </div>

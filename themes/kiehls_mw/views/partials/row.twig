@@ -1,0 +1,8 @@
+{% for layout in post.row_layout %}
+  {% set rowWidth = 'row_layout_'~loop.index0~'_row_width' %}
+    <div class="yz-row vs-2">
+      <div class=" {{ attribute(post, rowWidth) }} center">
+        {% include "/partials/#{layout}.twig" %}
+      </div>
+    </div>
+{% endfor %}

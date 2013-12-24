@@ -1,0 +1,20 @@
+{% set blockTypeL = 'row_layout_' ~ loop.index0 ~ '_left_column_block_type' %}
+{% set blockTypeR = 'row_layout_' ~ loop.index0 ~ '_right_column_block_type' %}
+{% set columnLayout = 'row_layout_' ~ loop.index0 ~ '_columns_layout' %}
+{% set templateL = attribute(post, blockTypeL) | lower | trim %}
+{% set templateR = attribute(post, blockTypeR) | lower | trim %}
+
+
+
+<div class="{{ attribute(post, columnLayout )}}">
+  <div class="block {{ attribute(post, blockTypeL)| lower }} {{ attribute(post, blockWidthL) }}">
+    {% set block_prefix = 'row_layout_' %}
+    {% set block_postfix = '_left_column' %}
+    {% include "partials/"~templateL~".twig" %}
+  </div>
+  <div class="block {{ attribute(post, blockTypeL)| lower }} {{ attribute(post, blockWidthR) }}">
+    {% set block_prefix = 'row_layout_' %}
+    {% set block_postfix = '_right_column' %}
+    {% include "partials/"~templateR~".twig" %}
+  </div>
+</div>

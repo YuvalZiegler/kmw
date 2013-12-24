@@ -1,0 +1,10 @@
+{% set blockType = 'row_layout_' ~ loop.index0 ~ '_block_type' %}
+{% set blockWidth = 'row_layout_' ~ loop.index0 ~ '_block_width' %}
+{% set blockAlignment = 'row_layout_' ~ loop.index0 ~ '_block_alignment' %}
+{% set template = attribute(post, blockType) | lower | trim %}
+
+<div class="block {{ attribute(post, blockType)| lower }} {{ attribute(post, blockWidth) }} {{ attribute(post, blockAlignment)|default('center') }}">
+  {% set block_prefix = 'row_layout_' %}
+  {% include "partials/"~template~".twig" %}
+
+</div>

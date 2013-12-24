@@ -76,13 +76,14 @@ function clean_admin_menus()
 }
 add_action('admin_menu', 'clean_admin_menus');
 
-function example_remove_dashboard_widgets()
+function remove_dashboard_widgets()
 {
   remove_meta_box('dashboard_quick_press', 'dashboard', 'side');
   remove_meta_box('dashboard_incoming_links', 'dashboard', 'normal');
   remove_meta_box('dashboard_activity', 'dashboard', 'normal');
+
 }
-add_action('wp_dashboard_setup', 'example_remove_dashboard_widgets');
+add_action('wp_dashboard_setup', 'remove_dashboard_widgets');
 
 // Custom post types
 function create_post_type()
@@ -133,4 +134,3 @@ function create_post_type()
 
 }
 add_action('init', 'create_post_type');
-
