@@ -1,38 +1,42 @@
-<div class="s-12">
-  {% if article is defined %}
-    <div class="vs-1">
-      <pre>
-        {{ article|print_r }}
-      </pre>
-    </div>
-  {% endif %}
 
-  {% if post is defined %}
-    <div class="vs-1">
-      <pre>
-        {{ post|print_r }}
-      </pre>
-    </div>
-  {% endif %}
 
-  {% if posts is defined %}
-    <div class="vs-1">
-      <pre>
-        {{ posts|print_r }}
-      </pre>
-    </div>
-  {% endif %}
+<aside id="debugger">
 
-  {% if arcticles is defined %}
-    <div class="vs-1">
-      <pre>
-        {{ articles|print_r }}
-      </pre>
+  <a data-toggle-target-id="#debugger-info-window">TOGGLE</a>
+  <div id="debugger-info-window">
+    <div class="s-12">
+      {% if article is defined %}
+        <div class="vs-1">
+        <pre>
+          {{ article|print_r }}
+        </pre>
+        </div>
+      {% endif %}
+
+      {% if post is defined %}
+        <div class="vs-1">
+        <pre>
+          {{ post|print_r }}
+        </pre>
+        </div>
+      {% endif %}
+
+      {% if posts is defined %}
+        <div class="vs-1">
+        <pre>
+          {{ posts|print_r }}
+        </pre>
+        </div>
+      {% endif %}
+
+      {% if arcticles is defined %}
+        <div class="vs-1">
+        <pre>
+          {{ articles|print_r }}
+        </pre>
+        </div>
+      {% endif %}
+
     </div>
-  {% endif %}
-  <div class="vs-1">
-    <pre>
-      {{ user|print_r }}
-    </pre>
-  </div
-</div>
+  </div>
+</aside>

@@ -125,3 +125,22 @@ h1{
     @extend .s-6;
   }
 }
+
+//////////////////
+#debugger {
+
+  a{
+    position: fixed;
+    right:10px;
+    padding:10px;
+    background:white;
+    margin:10px;
+  }
+  #debugger-info-window{display: none;}
+
+  width:90%;
+  position: absolute;
+  top: 50PX;
+  left: 0;
+}
+//////////////////

@@ -1627,3 +1627,23 @@ h1 {
 .section-header {
   font-size: 18px;
 }
+
+/* line 130, ../development/assets/scss/style.scss */
+#debugger {
+  width: 90%;
+  position: absolute;
+  top: 50PX;
+  left: 0;
+}
+/* line 132, ../development/assets/scss/style.scss */
+#debugger a {
+  position: fixed;
+  right: 10px;
+  padding: 10px;
+  background: white;
+  margin: 10px;
+}
+/* line 139, ../development/assets/scss/style.scss */
+#debugger #debugger-info-window {
+  display: none;
+}
