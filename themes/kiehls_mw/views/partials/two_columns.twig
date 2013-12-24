@@ -12,7 +12,7 @@
     {% set block_postfix = '_left_column' %}
     {% include "partials/"~templateL~".twig" %}
   </div>
-  <div class="block {{ attribute(post, blockTypeL)| lower }} {{ attribute(post, blockWidthR) }}">
+  <div class="block {{ attribute(post, blockTypeR)| lower }} {{ attribute(post, blockWidthR) }}">
     {% set block_prefix = 'row_layout_' %}
     {% set block_postfix = '_right_column' %}
     {% include "partials/"~templateR~".twig" %}

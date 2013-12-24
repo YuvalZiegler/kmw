@@ -62,7 +62,7 @@ h1{
   text-transform: uppercase;
 }
 // Create Grid
-@include yz-fluidGrid(s, 12, 5px);
+@include yz-fluidGrid(s, 12, 16px);
 
 .vs-1{
   margin-top:1em;
