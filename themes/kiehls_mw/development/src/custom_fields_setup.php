@@ -5,6 +5,10 @@
  * Date: 12/23/13
  * Time: 7:44 PM
  */
+function image_block(){
+
+}
+
 
 if(function_exists("register_field_group"))
 {

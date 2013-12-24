@@ -1,2 +1,2 @@
 {% set content = block_prefix ~ loop.index0 ~ block_postfix ~ '_image' %}
-<img class="s-12 cp" src="{{ TimberImage( attribute( post, content) ).src('large') }}"/>
+<img src="{{ TimberImage( attribute( post, content) ).src('large') }}" style="width:100%;"/>

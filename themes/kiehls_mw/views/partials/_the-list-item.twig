@@ -4,19 +4,19 @@
 
 
 <div class="s-3 item-slot">
-  <div class="s-11 center">
+  <div class="s-12 center">
     <div class="yz-row vs-1">
       <h1 class="number">
         <span class="leading-zero">0</span>
-        <span class="number">{{ i }}</span>
+        <span class="the-number">{{ i }}</span>
       </h1>
     </div>
-    <div class="yz-row vs-1">
-      <img class="s-12" src="{{ TimberImage(attribute(post, image)).src }}"/>
+    <div class="yz-row">
+      <img class="s-12 cp" src="{{ TimberImage(attribute(post, image)).src }}"/>
     </div>
     <div class="yz-row vs-1">
-      <span class="info s-11">{{ attribute(post, info) }}</span>
-      <span class="url s-11">
+      <span class="info s-12 cp">{{ attribute(post, info) }}</span>
+      <span class="url s-12 cp">
         <a href="{{ attribute(post, url) }}">
           {{ attribute(post, url) | replace({'http://':'', 'https://':''}) }}
         </a>

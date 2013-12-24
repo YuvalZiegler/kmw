@@ -61,6 +61,13 @@
 h1{
   text-transform: uppercase;
 }
+
+p {
+  margin: 0 0 2em;
+  &:last-child{
+    margin: 0 0 1em;
+  }
+}
 // Create Grid
 @include yz-fluidGrid(s, 12, 16px);
 
@@ -126,6 +133,17 @@ h1{
   }
 }
 
+
+.leading-zero{
+  float:left;
+  font-size: 26px;
+}
+.the-number{
+  float:left;
+  position: relative;
+  top: -7px;
+  font-size: 52px;
+}
 //////////////////
 #debugger {
 

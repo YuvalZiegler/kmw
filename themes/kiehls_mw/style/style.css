@@ -1106,6 +1106,15 @@ h1 {
   text-transform: uppercase;
 }
 
+/* line 65, ../development/assets/scss/style.scss */
+p {
+  margin: 0 0 2em;
+}
+/* line 67, ../development/assets/scss/style.scss */
+p:last-child {
+  margin: 0 0 1em;
+}
+
 /* line 869, ../development/assets/scss/partials/_mixins.scss */
 .s-1 {
   float: left;
@@ -1562,22 +1571,22 @@ h1 {
   margin-left: 100%;
 }
 
-/* line 67, ../development/assets/scss/style.scss */
+/* line 74, ../development/assets/scss/style.scss */
 .vs-1 {
   margin-top: 1em;
 }
 
-/* line 70, ../development/assets/scss/style.scss */
+/* line 77, ../development/assets/scss/style.scss */
 .vs-2 {
   margin-top: 2em;
 }
 
-/* line 73, ../development/assets/scss/style.scss */
+/* line 80, ../development/assets/scss/style.scss */
 .vs-3 {
   margin-top: 3em;
 }
 
-/* line 76, ../development/assets/scss/style.scss */
+/* line 83, ../development/assets/scss/style.scss */
 .yz-row {
   clear: both;
   width: 100%;
@@ -1594,48 +1603,62 @@ h1 {
   clear: both;
 }
 
-/* line 81, ../development/assets/scss/style.scss */
+/* line 88, ../development/assets/scss/style.scss */
 .ta-center {
   text-align: center;
 }
 
-/* line 84, ../development/assets/scss/style.scss */
+/* line 91, ../development/assets/scss/style.scss */
 .cp {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 88, ../development/assets/scss/style.scss */
+/* line 95, ../development/assets/scss/style.scss */
 .cm {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 92, ../development/assets/scss/style.scss */
+/* line 99, ../development/assets/scss/style.scss */
 .alignright {
   float: right;
   margin: 0 0 10px 20px;
 }
 
-/* line 96, ../development/assets/scss/style.scss */
+/* line 103, ../development/assets/scss/style.scss */
 .alignleft {
   float: left;
   margin: 0 20px 10px 0;
 }
 
-/* line 101, ../development/assets/scss/style.scss */
+/* line 108, ../development/assets/scss/style.scss */
 .section-header {
   font-size: 18px;
 }
 
-/* line 130, ../development/assets/scss/style.scss */
+/* line 137, ../development/assets/scss/style.scss */
+.leading-zero {
+  float: left;
+  font-size: 26px;
+}
+
+/* line 141, ../development/assets/scss/style.scss */
+.the-number {
+  float: left;
+  position: relative;
+  top: -7px;
+  font-size: 52px;
+}
+
+/* line 148, ../development/assets/scss/style.scss */
 #debugger {
   width: 90%;
   position: absolute;
   top: 50PX;
   left: 0;
 }
-/* line 132, ../development/assets/scss/style.scss */
+/* line 150, ../development/assets/scss/style.scss */
 #debugger a {
   position: fixed;
   right: 10px;
@@ -1643,7 +1666,7 @@ h1 {
   background: white;
   margin: 10px;
 }
-/* line 139, ../development/assets/scss/style.scss */
+/* line 157, ../development/assets/scss/style.scss */
 #debugger #debugger-info-window {
   display: none;
 }
